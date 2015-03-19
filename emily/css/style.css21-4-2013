@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; background-image:url(../images/background.png); background-position:top; background-repeat:repeat-x;}
+a img{
+	border:none;}
+article, aside, footer, section, nav{display:block;}
+.pageheader{}
+.pageheader .logo{ padding-top:27px; float:left; padding-top:27px;}
+.pageheader nav{display:block; width:581px; float:left; margin-top:39px; margin-left:30px;}
+.nav-left{background-image:url(../images/menu-bar.png); height:35px; background-position:0px -46px; width:12px; float:left;}
+.navigation{width:556px;background-image:url(../images/menu-bar.png); height:35px; float:left; background-position:0px -1px;}
+.nav_right{width:12px; background-image:url(../images/menu-bar.png); height:35px; float:left;background-position:0px -86px; float:left;}
+.navigation ul{list-style:none; margin:0px; padding:0px;}
+.navigation ul li{list-style:none; margin:0px; padding:0px; padding:0px 17px; float:left; line-height:35px; font-size:14px; font-family:Arial, Helvetica, sans-serif; color:#09578b; font-weight:bold}
+.navigation ul li a{text-decoration:none; color:#09578b; }
+.navigation ul li a:hover{color:#dd127b;}
+.navigation ul li.active a{font-weight:bold; color:#dd127b;}
+.hll_logo{float:right; width:175px; margin-top:37px;}
+.clear{clear:both;}
+.wrapper{width:960px; padding-left:20px; padding-right:20px; padding-top:1px; margin:auto;}
+
+.gall{width:100%; display:block; margin-top:30px;}
+.round1{background-image:url(../images/round-1.png); height:7px; width:7px; float:left;}
+.round2{background-image:url(../images/round-2.png); height:7px; width:7px; float:left;}
+.round3{background-image:url(../images/round-3.png); height:7px; width:7px; float:left;}
+.round4{background-image:url(../images/round-4.png); height:7px; width:7px; float:left;}
+.round1a{background-image:url(../images/rfill-1.png); height:7px; float:left;}
+.round2a{background-image:url(../images/rfill-2.png); width:7px; float:left;}
+.round3a{background-image:url(../images/rfill-3.png); height:7px; float:left;}
+.round4a{background-image:url(../images/rfill-4.png); width:7px; float:left;}
+.roundbody{float:left;}
+.r-full{width:946px;}
+.r-267{height:267px;}
+
+/*Slider*/
+.slider{width:299px; height:267px; float:left;}
+
+/*What is Emily*/
+
+.what_emily{width:612px; float:right;}
+
+.what_emily h2{color:#007ac3; font-size:15px; margin:0px; padding:0px; margin-top:10px; margin-bottom:25px;}
+.what_emily ul{margin-left:-10px}
+.what_emily ul li{list-style-image:url(../images/bullet.png); line-height:19px; margin-bottom:12px; color:#6a6969}
+.know_btn{text-align:center;}
+
+/*Main Colums*/
+#mainArticle{margin-top:40px;}
+ul.columns{list-style:none; margin:0px; padding:0px; width:100%;}
+ul.columns li{list-style:none; margin:0px; padding:0px; float:left; height:216px; width:263px; background-image:url(../images/login-back.png); margin-left:32px;}
+ul.columns li.intrest_emily{width:366px; background-image:url(../images/intrested-in-emily.png); margin:0px;}
+ul.columns li.parents_login{}
+
+/*Intrest in Emily*/
+ul.columns li.intrest_emily h3{ background-image:url(../images/people.png); padding-left:30px; background-position:left; background-repeat:no-repeat; color:#007ac3; height:20px; margin-left:30px; margin-top:20px; font-size:14px}
+ul.columns li.intrest_emily .click-btn{text-align:center; margin-top:50px;}
+
+ul.columns li.parents_login h3, ul.columns li.physician_login h3{margin-left:20px; color:#007ac3; margin-top:20px; font-size:14px}
+ul.columns li .forms{ height:100px}
+ul.columns li .forms .formsdiv{width:223px; height:20px; margin-bottom:10px}
+ul.columns li .forms .formsdiv label{ width:80px; display:block; float:left; height:20px; line-height:20px; margin-bottom:7px; padding:0;color:#007AC3}
+ul.columns li .forms .formsdiv input{ width:130px;float:left; margin-bottom:7px; border:solid 1px #86a9d0; height:20px; padding:0}
+ul.columns li .forms .formsdiv input[type='image'], ul.columns li.parents_login .forms input[type='submit']{border:none; width:79px; height:22px; margin-left:79px; margin-top:10px}
+.invalid_login_label{padding:20px 10px 10px 20px;color: #dd127b;}
+.invalid_login_label a{margin-left:10px;color: #dd127b;}
+/*Footer*/
+.pagefooter{background-color:#989A9E; margin-top:20px; padding:10px 20px; text-align:center; color:#FFF;}
+.socials {margin-bottom:8px;}
+.socials a{background-image:url(../images/socials.png); width:23px; height:23px; background-repeat:no-repeat;display:inline-block; text-decoration:none; margin-left:6px;}
+.socials a.twit{background-position:0px -23px;}
+.socials a.link{background-position:0px -49px;}
+
+/*Inner Pages*/
+.content_wrapper{border:solid 1px #dedede; border-radius:6px;  -web-kit-border-radius:6px;-moz-border-radius:6px; padding:20px; margin-top:30px; height:auto; overflow:auto; width:918px }
+.content_wrapper p{font-size:13px; line-height:20px; margin-bottom:12px; color:#555; text-align:justify;}
+.content_wrapper p span{font-size:13px; line-height:20px; margin-bottom:15px; margin-left:25px; color:#555; text-align:justify;}
+.content_wrapper h1{ border-bottom:solid 1px #fbc9e7; padding-bottom:8px; font-size:16px; color:#09578b; text-align:right; margin-bottom:15px; margin-top:0px;}
+.content_wrapper     h1 label{ text-align: left;float: left;}   
+    
+.content_wrapper h2{ padding-bottom:8px; font-size:14px; color:#dd127b; text-align:left; margin-bottom:15px; margin-top:0px; margin-left:12px}
+.sidebar{width:185px; float:right;}
+.innerArticle{width:685px; float:left;}
+.innerArticle h1{ border-bottom:solid 1px #fbc9e7; padding-bottom:8px; font-size:16px; color:#09578b; text-align:right; margin-bottom:15px; margin-top:0px;}
+.innerArticle p{font-size:13px; line-height:20px; margin-bottom:15px; color:#555; text-align:justify;}
+.slider-wrapper{position:relative;}
+.margleft{margin-left:16px}
+.content_wrapper ul{list-style:none; margin-left:19px; padding:0px; width:595px;}
+.content_wrapper ul li{list-style-image:url(../images/bullet.png); line-height:19px; color:#555; margin-left:26px }
+
+.contact-part{width:700px; background:url(../images/contact-icon.png) left top no-repeat; height:210px}
+
+.contact-addresspart{ height: auto;  overflow: auto;}
+.contact-address{background:url(../images/emily-contact-address-icon.png) no-repeat scroll left center transparent;    float: left;    height: 128px;    margin-right: 50px;    overflow: auto;    padding-left: 70px;    width: 175px;}
+.contact-phone{   background: url(../images/emily-contact-phone-icon.png) no-repeat scroll left center transparent;
+    float: left;
+    height: 120px;
+    overflow: auto;
+    padding-left: 70px;
+    width: 175px;}
+
+
+.bleedingPart{width:500px; height:auto; margin:50px 0 0 75px}
+.bleedingPartRow{width:600px; height:50px; margin:0 0 10px 0}
+.bleedingPartRow1{width:300px; height:50px; padding:0 10px 0 0; float:left; line-height:53px}
+.bleedingPartRow2{width:50px; height:50px; padding:0 10px 0 0; float:left; font-weight:bold; line-height:53px; text-align:right}
+.bleedingPartRow3{width:180px; height:50px; float:left; text-align:left}
+
+.fbold{font-weight:bold}
+.f15{font-size:15px}
+
+
+.ViewMyProfileForm{width:600px; height:auto; margin:50px 0 0 114px; min-height:400px}
+.ViewMyProfileFormRow{width:600px; height:30px;}
+.ViewMyProfileFormRow1{width:200px; height:30px; float:left}
+.ViewMyProfileFormRow2{width:300px; height:20px; float:left}
+
+
+.txt{border:1px solid #09578B}
+.width298{width:298px}
+.marB10{margin-bottom:10px}
+.width150{width:150px}
+.width50{width:50px}
+.width90{width:90px}
+.marL10{margin-left:10px}
+.ViewMyProBn{width:160px; height:70px; background:url(../images/viewmyprogress.jpg) no-repeat; cursor:pointer; border:none}
+.marB25{margin-bottom:25px}
+.width908{width:908px !important}
+
+.width450{width:450px}
+.askdoctorL{width:298px; height:350px; background:url(../images/askdoctorL.jpg) no-repeat; padding:25px 80px 0 80px}
+.askdoctorL1{width:298px; height:160px;}
+.askdoctorL2{width:298px; height:130px; padding:25px 0 0}
+.askdoctorR{width:200px; height:320px; background:url(../images/askdoctorR.jpg) no-repeat; padding:30px 100px 0 150px}
+.width200{width:200px}
+.RB{border-radius:5px}
+.height30{height:30px}
+.colorGrey{color:#a6a6a6}
+.height70{height:70px}
+.AskBn{width:89px; height:57px; background:url(../images/ask.png) no-repeat; cursor:pointer; border:none}
+.CDBn{width:133px; height:84px; background:url(../images/viewclinicaldata.png) no-repeat; cursor:pointer; border:none}
+.SaveBn{width:89px; height:57px; background:url(../images/save.png) no-repeat; cursor:pointer; border:none}
+
+
+
+.PatientList{width:780px; height:auto; margin:50px 0 0 62px; overflow:auto; background:#09578B; border-radius:5px; padding:10px}
+.PatientListHRow{width:780px; height:25px; background:#007ec9; border-radius:5px; margin:0 0 10px 0; color:#fff}
+.PatientListHRow1{width:100px; height:25px; font-weight:bold; text-align:center; padding:5px 0 0 0}
+.PatientListHRow2{width:200px; height:25px; font-weight:bold; text-align:center; padding:5px 0 0 0}
+.PatientListHRow3{width:50px; height:25px; font-weight:bold; text-align:center; padding:5px 0 0 0}
+.PatientListHRow4{width:330px; height:25px; font-weight:bold; text-align:center; padding:5px 0 0 0}
+.PatientListHRow5{width:100px; height:25px; font-weight:bold; text-align:center; padding:5px 0 0 0}
+
+.PatientListRow{width:780px; height:25px; background:#fff; border-radius:5px; margin:0 0 5px 0 ; color:#09578B}
+.PatientListRow1{width:100px; height:25px; text-align:center; padding:5px 0 0 0}
+.PatientListRow2{width:200px; height:25px; text-align:center; padding:5px 0 0 0}
+.PatientListRow3{width:50px; height:25px; text-align:center; padding:5px 0 0 0}
+.PatientListRow4{width:330px; height:25px; text-align:center; padding:5px 0 0 0}
+.PatientListRow5{width:100px; height:25px; text-align:center; padding:4px 0 0 0}
+
+.padding20{
+    padding: 20px;
+}
+
+.pad20alltop10{
+     padding: 8px 20px 20px 20px;
+}
+.askdoctorL1 p{
+    color: #09578B;
+}
+.askdoctorL2 p{
+    color: #09578B;
+}
+#pagination a, #pagination strong {
+	 background: #e3e3e3;
+	 padding: 4px 7px;
+	 text-decoration: none;
+	border: 1px solid #cac9c9;
+	color: #09578B;
+	font-size: 13px;
+	}
+
+	#pagination strong, #pagination a:hover {
+	 font-weight: normal;
+	 background: #ec86ad;
+        }	.height150{
+            
+            height:150px;
+            
+        }.width250{
+          width: 250px; 
+        }	.read_instruction{
+            float: right;
+            height:    200px;width:200px;    }

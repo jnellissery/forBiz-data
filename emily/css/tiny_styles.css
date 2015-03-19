@@ -1,0 +1,58 @@
+
+.tbox {position:absolute; display:none; padding:14px 17px; z-index:900;border: 1px solid #fff;font-family: sans-serif;min-width: 150px}
+.tinner {  background:#fff url(../images/preload.gif) no-repeat 50% 50%; border-right:1px solid #333; border-bottom:1px solid #333}
+.tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; z-index:800}
+.tclose {position:absolute; top:-19px; right:-16px; width:30px; height:30px; cursor:pointer; background:url(../images/close.png) no-repeat}
+.tclose:hover {background-position:0 -30px}
+
+#error {background:#ff6969; color:#fff; text-shadow:1px 1px #cf5454; border-right:1px solid #000; border-bottom:1px solid #000; padding:0}
+#error .tcontent {padding:10px 14px 11px; border:1px solid #ffb8b8; -moz-border-radius:5px; border-radius:5px;min-width: 130px;}
+#success {  text-align: center;background:#2ea125; color:#fff; text-shadow:1px 1px #1b6116; border-right:1px solid #000; border-bottom:1px solid #000; padding:5px; -moz-border-radius:0; border-radius:0;height:50px;}
+#bluemask {background:#4195aa}
+#frameless {padding:0}
+#frameless .tclose {left:6px}
+.tcontent {
+	padding-bottom: 0px !important;padding:15px;
+}
+.add_back{
+background:url(../images/img-3.png) repeat fixed center top transparent !important;
+}
+.add_back_white{
+background-color:#fff;
+float: left;
+}
+.red_star {
+    color: red;
+    font-weight: bold;
+}
+.req_fields {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+}
+.error_message {
+    padding-left: 107px;
+    font-weight: bold;
+    color: red;
+	display:none;
+}
+.author_right_top {
+   border-bottom: 1px solid #B7B7B7;
+    float: left;
+    height: 40px;
+    width: 535px;
+}
+.author_left {
+    float: left;
+    height: 155px;
+    width: 185px;
+}
+.author_left img{
+  float: left;
+}
+.author_right_bottom {
+    clear: both;
+    float: left;
+    width: 535px;
+    padding-bottom: 10px;
+}

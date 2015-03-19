@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>JQVMap - Russia Map</title>
+    <link type='text/css' href='../css/basic.css' rel='stylesheet' media='screen' />
+
+    <link href="../jqvmap/jqvmap.css" media="screen" rel="stylesheet" type="text/css" />
+    
+    <script src="../js/jquery.js" type="text/javascript"></script>
+    <script src="../jqvmap/jquery.vmap.js" type="text/javascript"></script>
+    <script src="../jqvmap/maps/jquery.vmap.india.js" type="text/javascript"></script>
+	<script src="../jqvmap/data/jquery.vmap.sampledata.js" type="text/javascript"></script>
+       <script type='text/javascript' src='../js/jquery.simplemodal.js'></script>
+    <script type='text/javascript' src='../js/basic.js'></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery('#vmap').vectorMap({
+		    map: 'india_en',
+		    backgroundColor: '#333333',
+		    color: '#ffffff',
+		    hoverOpacity: 0.7,        selectedColor: '#666666',
+		    
+		    enableZoom: true,
+		    showTooltip: 	true,
+		    values: sample_data,
+		    scaleColors: ['#C8EEFF', '#006491'],
+		    normalizeFunction: 'polynomial',onLabelShow: function (event, label, code) {
+    if(sample_data[code] > 0)
+        label.append(': '+sample_data[code]+' Views'); 
+}, onRegionClick: function(element, code, region)
+        {
+            var message = 'You clicked "'
+                + region 
+                + '" which has the code: '
+                + code.toUpperCase();
+				
+				
+			
+                    var pageUrl="popupcontent.php";
+					var val=$('#STestcase').val();
+                   // console.log(sortVal);alert(sortVal);
+                    $.ajax({   
+                        url: pageUrl, //The url where the server req would we made.
+                        async: false,
+                        type: "POST", //The type which you want to use: GET/POST
+                        data: 'STestcase='+val,//The variables which are going.
+                        dataType: "html", //Return data type (what we expect).
+                         
+                        //This is the function which will be called if ajax call is successful.
+                        success: function(data) {
+                          					  
+						 $('#basic-modal-content').html(data);
+		$('#basic-modal-content').modal();
+
+		return false;
+	
+						   // $('#city').html(data);
+                        },
+						error: function(e) {
+							alert(ed);
+						}
+                    });
+               
+$('#basic-modal-content').modal();
+        }
+		});
+	});
+	</script>
+  </head>
+  <body>
+    <div id="vmap" style="width: 600px; height: 400px;"></div><div id="basic-modal-content">
+                    <p>
+                        Hello
+                  
+                    </p>
+			
+                        
+		</div>  </body>
+</html>
